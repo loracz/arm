@@ -11,17 +11,29 @@ class UsersTableSeeder extends Seeder
      */
     public function run()
     {
+        // DB::table('users')->insert([
+        //     'login'=>'sysuser',
+        //     'name'=>'Sys',
+        //     'surname'=>'User',
+        //     'password'=>bcrypt('sysuser')
+        // ]);
+        // DB::table('users')->insert([
+        //     'login'=>'loracz',
+        //     'name'=>'Łukasz',
+        //     'surname'=>'Oracz',
+        //     'password'=>bcrypt('test')
+        // ]);
         DB::table('users')->insert([
-            'login'=>'sysuser',
-            'name'=>'Sys',
-            'surname'=>'User',
-            'password'=>bcrypt('sysuser')
+            'login'=>'anowak',
+            'name'=>'Adam',
+            'surname'=>'Nowak',
+            'password'=>bcrypt('fhfhdfhdf')
         ]);
         DB::table('users')->insert([
-            'login'=>'loracz',
-            'name'=>'Łukasz',
-            'surname'=>'Oracz',
-            'password'=>bcrypt('test')
+            'login'=>'pkowalski',
+            'name'=>'Piotr',
+            'surname'=>'Kowalski',
+            'password'=>bcrypt('fhdffjfgfg')
         ]);
     }
 }

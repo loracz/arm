@@ -14,6 +14,14 @@
                         </div>
                     @endif
 
+                    <ul>
+                        <li>
+                        <a href="{{ route('users') }}" class="nav-link">Zarządzanie operatorami</a>
+                        </li> 
+                    </ul>
+
+                    
+
                     You are logged in!
                 </div>
             </div>
