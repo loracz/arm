@@ -18,11 +18,12 @@
                         <li>
                         <a href="{{ route('users') }}" class="nav-link">Zarządzanie operatorami</a>
                         </li> 
+                        <li>
+                        <a href="{{ route('proposals') }}" class="nav-link">Zarządzanie wnioskami</a>
+                        </li> 
                     </ul>
 
-                    
 
-                    You are logged in!
                 </div>
             </div>
         </div>
